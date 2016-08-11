@@ -1,0 +1,82 @@
+{
+    "author": "chops",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wallpapers",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "wallpapers",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "NETDL_BEGIN": 1768777473,
+            "NETDL_CHUNK_SIZE": 1768777475,
+            "NETDL_DATA": 1768777472,
+            "NETDL_END": 1768777474,
+            "NETDL_URL": 1768777476,
+            "Shake": 1,
+            "Wallpaper": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bton",
+                    "name": "IMAGE_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/btoff",
+                    "name": "IMAGE_NO_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_batt.png",
+                    "name": "IMAGE_BATT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_battery_charge.png",
+                    "name": "IMAGE_BATTERY_CHARGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/shuttersmall.png",
+                    "name": "LOADING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9: ]",
+                    "file": "fonts/Arimo-Regular.ttf",
+                    "name": "FONT_REGULAR_28",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/HelveticaNeue-ThinCond.otf",
+                    "name": "FONT_CUSTOM_16",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 1,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "f06797e4-69a4-45a1-8c3a-84da4d6b52b4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
